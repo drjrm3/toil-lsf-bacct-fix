@@ -106,12 +106,12 @@ def runSetup():
         core_reqs.remove(subprocess32)
 
     setup(
-        name='toil',
+        name='toil-lsf-bacct-fix',
         version=version.distVersion,
         description='Pipeline management software for clusters.',
-        author='Benedict Paten',
-        author_email='benedict@soe.usc.edu',
-        url="https://github.com/BD2KGenomics/toil",
+        author='Benedict Paten, J. Robert Michael',
+        author_email='benedict@soe.usc.edu, jrobert.michael@stjude.org',
+        url="https://github.com/drjrm3/toil-lsf-bacct-fix",
         classifiers=[
           'Development Status :: 5 - Production/Stable',
           'Environment :: Console',

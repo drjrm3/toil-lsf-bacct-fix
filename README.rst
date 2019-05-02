@@ -1,3 +1,7 @@
+
+*** NOTE ***
+This is a forked repo to change the way that LSF queries for job status to make it more efficient by reducing the likelihood it needs to use bacct.
+
 ATTENTION: Toil has moved from https://github.com/BD2KGenomics/toil to https://github.com/DataBiosphere/toil as of July 5th, 2018.
 
 Toil is a scalable, efficient, cross-platform (Linux & macOS) pipeline management system,
